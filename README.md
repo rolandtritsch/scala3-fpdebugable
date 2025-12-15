@@ -1,6 +1,6 @@
 # scala3-fpdebugable - Implementing Alvinj's Debugable
 
-This is a playground to play around with monads.
+This is a playground to play around with for-comprehesions.
 
 We are implementing the Debugable class from Alvinj's Functional Programing book.
 
@@ -16,10 +16,4 @@ To see the de-sugared for-comprehesion you can run ...
 
 ```bash
 scala-cli clean && scala-cli compile . -O -Xprint:typer
-```
-
-**Challenge**: Make this code work ...
-
-```scala
-f(100).flatten
 ```
